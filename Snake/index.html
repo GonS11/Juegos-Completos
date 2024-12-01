@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake</title>
+</head>
+
+<body>
+    <div id="overlay">
+        <p>Selecciona el color de la serpiente:</p>
+        <input type="color" id="color-selector" value="#228B22">
+        <p>Selecciona la velocidad de la serpiente:</p>
+        <select id="speed-selector">
+            <option value="100">Lento</option>
+            <option value="80" selected>Medio</option>
+            <option value="50">Rápido</option>
+        </select>
+        <button id="start-button">Comenzar</button>
+    </div>
+    <canvas width="500" height="500"></canvas>
+    <script src="./script.js"></script>
+</body>
+
+</html>
